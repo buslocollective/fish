@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA03193D26EE51AC00214D21 /* fish.docc in Sources */ = {isa = PBXBuildFile; fileRef = FA03193C26EE51AC00214D21 /* fish.docc */; };
+		FA03194326EE51AC00214D21 /* fish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA03193826EE51AC00214D21 /* fish.framework */; };
+		FA03194826EE51AC00214D21 /* mongKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03194726EE51AC00214D21 /* mongKitTests.swift */; };
+		FA03194926EE51AC00214D21 /* fish.h in Headers */ = {isa = PBXBuildFile; fileRef = FA03193B26EE51AC00214D21 /* fish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA03195326EE51D700214D21 /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03195226EE51D700214D21 /* fish.swift */; };
+		FA03195826EE51F900214D21 /* FlowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03195726EE51F900214D21 /* FlowBuilder.swift */; };
+		FA03195F26EE52F700214D21 /* ComponentContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03195E26EE52F700214D21 /* ComponentContract.swift */; };
+		FA03196126EE533600214D21 /* ComponentContract+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03196026EE533600214D21 /* ComponentContract+UIKit.swift */; };
+		FA03196526EE545900214D21 /* LayoutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03196426EE545900214D21 /* LayoutConfigurator.swift */; };
+		FA03196726EE54D400214D21 /* PropertyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03196626EE54D400214D21 /* PropertyConfigurator.swift */; };
+		FA03196B26EE58C200214D21 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03196A26EE58C200214D21 /* Layout.swift */; };
+		FA6603BB26F1955700FAF7A3 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6603BA26F1955700FAF7A3 /* Reactive.swift */; };
+		FA7E4C2926F0E90B00334C92 /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E4C2826F0E90B00334C92 /* LayoutItem.swift */; };
+		FA7E4C2B26F0E98500334C92 /* PropItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E4C2A26F0E98500334C92 /* PropItem.swift */; };
+		FA7E4C2D26F1933F00334C92 /* ComponentContract+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E4C2C26F1933F00334C92 /* ComponentContract+Combine.swift */; };
+		FA8AA47026EF3A0900B3941A /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA46F26EF3A0900B3941A /* Flow.swift */; };
+		FA8AA47226EF3A3100B3941A /* Flow+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA47126EF3A3100B3941A /* Flow+UIKit.swift */; };
+		FA8AA47426EF3D5700B3941A /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA47326EF3D5700B3941A /* Property.swift */; };
+		FA8AE65126F0C1E500682BCD /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AE65026F0C1E500682BCD /* Source.swift */; };
+		FA8AE65326F0C2E700682BCD /* _main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AE65226F0C2E700682BCD /* _main.swift */; };
+		FAAC834126EF4178000F6F8F /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC834026EF4178000F6F8F /* Assignment.swift */; };
+		FAC0DED226F2EB290076884C /* fish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA03193826EE51AC00214D21 /* fish.framework */; };
+		FAC0DED326F2EB290076884C /* fish.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA03193826EE51AC00214D21 /* fish.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAF2ED9D26F1AF5A00BA0C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2ED9C26F1AF5A00BA0C89 /* AppDelegate.swift */; };
+		FAF2ED9F26F1AF5A00BA0C89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2ED9E26F1AF5A00BA0C89 /* SceneDelegate.swift */; };
+		FAF2EDA126F1AF5A00BA0C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2EDA026F1AF5A00BA0C89 /* ViewController.swift */; };
+		FAF2EDA426F1AF5A00BA0C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2EDA226F1AF5A00BA0C89 /* Main.storyboard */; };
+		FAF2EDA626F1AF5C00BA0C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2EDA526F1AF5C00BA0C89 /* Assets.xcassets */; };
+		FAF2EDA926F1AF5C00BA0C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2EDA726F1AF5C00BA0C89 /* LaunchScreen.storyboard */; };
+		FAF2EDB326F1E05A00BA0C89 /* Combinative in Frameworks */ = {isa = PBXBuildFile; productRef = FAF2EDB226F1E05A00BA0C89 /* Combinative */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA03194426EE51AC00214D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA03192F26EE51AC00214D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA03193726EE51AC00214D21;
+			remoteInfo = mongKit;
+		};
+		FAC0DED426F2EB290076884C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA03192F26EE51AC00214D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA03193726EE51AC00214D21;
+			remoteInfo = fish;
+		};
+		FAF2EDAE26F1B0DA00BA0C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA03192F26EE51AC00214D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA03193726EE51AC00214D21;
+			remoteInfo = mongKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAC0DED626F2EB290076884C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FAC0DED326F2EB290076884C /* fish.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA03193826EE51AC00214D21 /* fish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA03193B26EE51AC00214D21 /* fish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fish.h; sourceTree = "<group>"; };
+		FA03193C26EE51AC00214D21 /* fish.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = fish.docc; sourceTree = "<group>"; };
+		FA03194226EE51AC00214D21 /* fishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA03194726EE51AC00214D21 /* mongKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mongKitTests.swift; sourceTree = "<group>"; };
+		FA03195226EE51D700214D21 /* fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fish.swift; sourceTree = "<group>"; };
+		FA03195726EE51F900214D21 /* FlowBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBuilder.swift; sourceTree = "<group>"; };
+		FA03195E26EE52F700214D21 /* ComponentContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentContract.swift; sourceTree = "<group>"; };
+		FA03196026EE533600214D21 /* ComponentContract+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComponentContract+UIKit.swift"; sourceTree = "<group>"; };
+		FA03196426EE545900214D21 /* LayoutConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConfigurator.swift; sourceTree = "<group>"; };
+		FA03196626EE54D400214D21 /* PropertyConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyConfigurator.swift; sourceTree = "<group>"; };
+		FA03196A26EE58C200214D21 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		FA6603BA26F1955700FAF7A3 /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
+		FA7E4C2826F0E90B00334C92 /* LayoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutItem.swift; sourceTree = "<group>"; };
+		FA7E4C2A26F0E98500334C92 /* PropItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropItem.swift; sourceTree = "<group>"; };
+		FA7E4C2C26F1933F00334C92 /* ComponentContract+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComponentContract+Combine.swift"; sourceTree = "<group>"; };
+		FA8AA46F26EF3A0900B3941A /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		FA8AA47126EF3A3100B3941A /* Flow+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flow+UIKit.swift"; sourceTree = "<group>"; };
+		FA8AA47326EF3D5700B3941A /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		FA8AE65026F0C1E500682BCD /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		FA8AE65226F0C2E700682BCD /* _main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _main.swift; sourceTree = "<group>"; };
+		FAAC834026EF4178000F6F8F /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		FAF2ED9A26F1AF5A00BA0C89 /* fishApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2ED9C26F1AF5A00BA0C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF2ED9E26F1AF5A00BA0C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAF2EDA026F1AF5A00BA0C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF2EDA326F1AF5A00BA0C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF2EDA526F1AF5C00BA0C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF2EDA826F1AF5C00BA0C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF2EDAA26F1AF5C00BA0C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2EDB026F1BC3300BA0C89 /* fish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fish.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA03193526EE51AC00214D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2EDB326F1E05A00BA0C89 /* Combinative in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03193F26EE51AC00214D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA03194326EE51AC00214D21 /* fish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2ED9726F1AF5A00BA0C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC0DED226F2EB290076884C /* fish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA03192E26EE51AC00214D21 = {
+			isa = PBXGroup;
+			children = (
+				FA03193C26EE51AC00214D21 /* fish.docc */,
+				FA03193A26EE51AC00214D21 /* fish */,
+				FAF2ED9B26F1AF5A00BA0C89 /* fishApp */,
+				FA03194626EE51AC00214D21 /* fishTests */,
+				FA03193926EE51AC00214D21 /* Products */,
+				FAC0DED126F2EB290076884C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA03193926EE51AC00214D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA03193826EE51AC00214D21 /* fish.framework */,
+				FA03194226EE51AC00214D21 /* fishTests.xctest */,
+				FAF2ED9A26F1AF5A00BA0C89 /* fishApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA03193A26EE51AC00214D21 /* fish */ = {
+			isa = PBXGroup;
+			children = (
+				FA03193B26EE51AC00214D21 /* fish.h */,
+				FA03195226EE51D700214D21 /* fish.swift */,
+				FA03195426EE51DE00214D21 /* components */,
+				FA03195526EE51E100214D21 /* network */,
+				FA03195626EE51E500214D21 /* utility */,
+			);
+			path = fish;
+			sourceTree = "<group>";
+		};
+		FA03194626EE51AC00214D21 /* fishTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA03194726EE51AC00214D21 /* mongKitTests.swift */,
+			);
+			path = fishTests;
+			sourceTree = "<group>";
+		};
+		FA03195426EE51DE00214D21 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FA76484526EF46A900856920 /* _uikit */,
+				FA03196826EE54F500214D21 /* configurator */,
+				FA03195926EE522B00214D21 /* contract */,
+				FA03196926EE58B100214D21 /* flow */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		FA03195526EE51E100214D21 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		FA03195626EE51E500214D21 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		FA03195926EE522B00214D21 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				FA03195E26EE52F700214D21 /* ComponentContract.swift */,
+				FA8AA46F26EF3A0900B3941A /* Flow.swift */,
+				FA03195726EE51F900214D21 /* FlowBuilder.swift */,
+			);
+			path = contract;
+			sourceTree = "<group>";
+		};
+		FA03196826EE54F500214D21 /* configurator */ = {
+			isa = PBXGroup;
+			children = (
+				FA03196426EE545900214D21 /* LayoutConfigurator.swift */,
+				FA03196626EE54D400214D21 /* PropertyConfigurator.swift */,
+			);
+			path = configurator;
+			sourceTree = "<group>";
+		};
+		FA03196926EE58B100214D21 /* flow */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AE65226F0C2E700682BCD /* _main.swift */,
+				FAAC834026EF4178000F6F8F /* Assignment.swift */,
+				FA03196A26EE58C200214D21 /* Layout.swift */,
+				FA8AA47326EF3D5700B3941A /* Property.swift */,
+				FA8AE65026F0C1E500682BCD /* Source.swift */,
+				FA6603BA26F1955700FAF7A3 /* Reactive.swift */,
+			);
+			path = flow;
+			sourceTree = "<group>";
+		};
+		FA76484526EF46A900856920 /* _uikit */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E4C2C26F1933F00334C92 /* ComponentContract+Combine.swift */,
+				FA03196026EE533600214D21 /* ComponentContract+UIKit.swift */,
+				FA8AA47126EF3A3100B3941A /* Flow+UIKit.swift */,
+				FA7E4C2726F0E8FB00334C92 /* erasure */,
+			);
+			path = _uikit;
+			sourceTree = "<group>";
+		};
+		FA7E4C2726F0E8FB00334C92 /* erasure */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E4C2826F0E90B00334C92 /* LayoutItem.swift */,
+				FA7E4C2A26F0E98500334C92 /* PropItem.swift */,
+			);
+			path = erasure;
+			sourceTree = "<group>";
+		};
+		FAC0DED126F2EB290076884C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF2ED9B26F1AF5A00BA0C89 /* fishApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2EDB026F1BC3300BA0C89 /* fish.entitlements */,
+				FAF2ED9C26F1AF5A00BA0C89 /* AppDelegate.swift */,
+				FAF2ED9E26F1AF5A00BA0C89 /* SceneDelegate.swift */,
+				FAF2EDA026F1AF5A00BA0C89 /* ViewController.swift */,
+				FAF2EDA226F1AF5A00BA0C89 /* Main.storyboard */,
+				FAF2EDA526F1AF5C00BA0C89 /* Assets.xcassets */,
+				FAF2EDA726F1AF5C00BA0C89 /* LaunchScreen.storyboard */,
+				FAF2EDAA26F1AF5C00BA0C89 /* Info.plist */,
+			);
+			path = fishApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA03193326EE51AC00214D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA03194926EE51AC00214D21 /* fish.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA03193726EE51AC00214D21 /* fish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA03194C26EE51AC00214D21 /* Build configuration list for PBXNativeTarget "fish" */;
+			buildPhases = (
+				FA03193326EE51AC00214D21 /* Headers */,
+				FA03193426EE51AC00214D21 /* Sources */,
+				FA03193526EE51AC00214D21 /* Frameworks */,
+				FA03193626EE51AC00214D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fish;
+			packageProductDependencies = (
+				FAF2EDB226F1E05A00BA0C89 /* Combinative */,
+			);
+			productName = mongKit;
+			productReference = FA03193826EE51AC00214D21 /* fish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA03194126EE51AC00214D21 /* fishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA03194F26EE51AC00214D21 /* Build configuration list for PBXNativeTarget "fishTests" */;
+			buildPhases = (
+				FA03193E26EE51AC00214D21 /* Sources */,
+				FA03193F26EE51AC00214D21 /* Frameworks */,
+				FA03194026EE51AC00214D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA03194526EE51AC00214D21 /* PBXTargetDependency */,
+			);
+			name = fishTests;
+			productName = mongKitTests;
+			productReference = FA03194226EE51AC00214D21 /* fishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF2ED9926F1AF5A00BA0C89 /* fishApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2EDAD26F1AF5C00BA0C89 /* Build configuration list for PBXNativeTarget "fishApp" */;
+			buildPhases = (
+				FAF2ED9626F1AF5A00BA0C89 /* Sources */,
+				FAF2ED9726F1AF5A00BA0C89 /* Frameworks */,
+				FAF2ED9826F1AF5A00BA0C89 /* Resources */,
+				FAC0DED626F2EB290076884C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF2EDAF26F1B0DA00BA0C89 /* PBXTargetDependency */,
+				FAC0DED526F2EB290076884C /* PBXTargetDependency */,
+			);
+			name = fishApp;
+			productName = mongKitApp;
+			productReference = FAF2ED9A26F1AF5A00BA0C89 /* fishApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA03192F26EE51AC00214D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Buslo Collective";
+				TargetAttributes = {
+					FA03193726EE51AC00214D21 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FA03194126EE51AC00214D21 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FAF2ED9926F1AF5A00BA0C89 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FA03193226EE51AC00214D21 /* Build configuration list for PBXProject "fish" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA03192E26EE51AC00214D21;
+			packageReferences = (
+				FAF2EDB126F1E05A00BA0C89 /* XCRemoteSwiftPackageReference "Combinative" */,
+			);
+			productRefGroup = FA03193926EE51AC00214D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA03193726EE51AC00214D21 /* fish */,
+				FA03194126EE51AC00214D21 /* fishTests */,
+				FAF2ED9926F1AF5A00BA0C89 /* fishApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA03193626EE51AC00214D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03194026EE51AC00214D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2ED9826F1AF5A00BA0C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2EDA926F1AF5C00BA0C89 /* LaunchScreen.storyboard in Resources */,
+				FAF2EDA626F1AF5C00BA0C89 /* Assets.xcassets in Resources */,
+				FAF2EDA426F1AF5A00BA0C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA03193426EE51AC00214D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA47426EF3D5700B3941A /* Property.swift in Sources */,
+				FA03196126EE533600214D21 /* ComponentContract+UIKit.swift in Sources */,
+				FA03193D26EE51AC00214D21 /* fish.docc in Sources */,
+				FA6603BB26F1955700FAF7A3 /* Reactive.swift in Sources */,
+				FAAC834126EF4178000F6F8F /* Assignment.swift in Sources */,
+				FA03196526EE545900214D21 /* LayoutConfigurator.swift in Sources */,
+				FA7E4C2D26F1933F00334C92 /* ComponentContract+Combine.swift in Sources */,
+				FA7E4C2926F0E90B00334C92 /* LayoutItem.swift in Sources */,
+				FA03195F26EE52F700214D21 /* ComponentContract.swift in Sources */,
+				FA03196B26EE58C200214D21 /* Layout.swift in Sources */,
+				FA03195326EE51D700214D21 /* fish.swift in Sources */,
+				FA7E4C2B26F0E98500334C92 /* PropItem.swift in Sources */,
+				FA8AE65326F0C2E700682BCD /* _main.swift in Sources */,
+				FA8AA47026EF3A0900B3941A /* Flow.swift in Sources */,
+				FA8AA47226EF3A3100B3941A /* Flow+UIKit.swift in Sources */,
+				FA03195826EE51F900214D21 /* FlowBuilder.swift in Sources */,
+				FA03196726EE54D400214D21 /* PropertyConfigurator.swift in Sources */,
+				FA8AE65126F0C1E500682BCD /* Source.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03193E26EE51AC00214D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA03194826EE51AC00214D21 /* mongKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2ED9626F1AF5A00BA0C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2EDA126F1AF5A00BA0C89 /* ViewController.swift in Sources */,
+				FAF2ED9D26F1AF5A00BA0C89 /* AppDelegate.swift in Sources */,
+				FAF2ED9F26F1AF5A00BA0C89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA03194526EE51AC00214D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA03193726EE51AC00214D21 /* fish */;
+			targetProxy = FA03194426EE51AC00214D21 /* PBXContainerItemProxy */;
+		};
+		FAC0DED526F2EB290076884C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA03193726EE51AC00214D21 /* fish */;
+			targetProxy = FAC0DED426F2EB290076884C /* PBXContainerItemProxy */;
+		};
+		FAF2EDAF26F1B0DA00BA0C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA03193726EE51AC00214D21 /* fish */;
+			targetProxy = FAF2EDAE26F1B0DA00BA0C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF2EDA226F1AF5A00BA0C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2EDA326F1AF5A00BA0C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF2EDA726F1AF5C00BA0C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2EDA826F1AF5C00BA0C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA03194A26EE51AC00214D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA03194B26EE51AC00214D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA03194D26EE51AC00214D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		FA03194E26EE51AC00214D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		FA03195026EE51AC00214D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA03195126EE51AC00214D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAF2EDAB26F1AF5C00BA0C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fishApp/fish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fishApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		FAF2EDAC26F1AF5C00BA0C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fishApp/fish.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV49BGP2TT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fishApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.mong.fish.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA03193226EE51AC00214D21 /* Build configuration list for PBXProject "fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03194A26EE51AC00214D21 /* Debug */,
+				FA03194B26EE51AC00214D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA03194C26EE51AC00214D21 /* Build configuration list for PBXNativeTarget "fish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03194D26EE51AC00214D21 /* Debug */,
+				FA03194E26EE51AC00214D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA03194F26EE51AC00214D21 /* Build configuration list for PBXNativeTarget "fishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03195026EE51AC00214D21 /* Debug */,
+				FA03195126EE51AC00214D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2EDAD26F1AF5C00BA0C89 /* Build configuration list for PBXNativeTarget "fishApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2EDAB26F1AF5C00BA0C89 /* Debug */,
+				FAF2EDAC26F1AF5C00BA0C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAF2EDB126F1E05A00BA0C89 /* XCRemoteSwiftPackageReference "Combinative" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/noppefoxwolf/Combinative.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAF2EDB226F1E05A00BA0C89 /* Combinative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF2EDB126F1E05A00BA0C89 /* XCRemoteSwiftPackageReference "Combinative" */;
+			productName = Combinative;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA03192F26EE51AC00214D21 /* Project object */;
+}
